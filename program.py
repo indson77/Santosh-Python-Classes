@@ -1,32 +1,3 @@
-# print('How')
-
-# i = 0 
-# while i <= 10 :
-#     print(i)
-#     i += 1
-
-# def comparison():
-#    x = int(input("enter your first value"))
-#    y = int(input("enter your second value"))
-#    if x > y :
-#     print("x is greater than y")
-#    else :
-#     print("x is smaller than y")
-# comparison()
-
-# x = 10
-# y = 20
-# x += y
-# print(x)
-
-# l = [ ]
-# while True :
-#     students_marks = int(input("enter your marks : "))
-#     if students_marks == 100 :
-#         break
-#     l.append(students_marks)
-
-
 # Questions: 4, 15,16,18, 21, 24, 30 
 
 
