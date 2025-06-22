@@ -53,5 +53,26 @@ else :
 
 #8 try checker 
 num = int(input("enter your number :"))
+if num % 3 == 0 and num % 5 == 0 :
+    print("yes, this num is divisible by both 3 and 5")
+else :
+    print("this num is not divisible by both 3 and 5")
 
+#10 triangle validity checker 
+ang1 = int(input("enter your first angle :"))
+ang2 = int(input("enter your second angle :"))
+ang3 = int(input("enter your third angle :"))
+if ang1 + ang2 + ang3 == 180 :
+    print("yes,this triangle is valid")
+else :
+    print("this is not valid triangle")
+
+#9 check alphabet,digit,or special character 
+checker = input("enter a value :")
+if checker.isalpha():
+    print("the given input is an alphabet")
+elif checker.isdigit():
+    print("the given input is digit")
+else :
+    print("the given input is a special character")
 
